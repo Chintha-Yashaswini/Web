@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+<a href="./All in 1.html"></a>
+</head>
+<body></body>
+
+    <form action="./All in 1.html" method="post">
+        <table border="0" align="center" cellpadding="8" style="background-color:yellow;">
+            <tr>
+                <th colspan="2"><h2>Personal Details</h2></th>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>E-mail id:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Contact #:</td>
+                <td><input type="text" name="contact"></td>
+            </tr>
+            <tr>
+                <th colspan="2">Educational Qualification</th>
+            </tr>
+            <tr>
+                <td>Degree:</td>
+                <td>
+                    <select name="degree">
+                        <option>-- Select Group --</option>
+                        <option>B.Tech</option>
+                        <option>B.Com</option>
+                        <option>B.A</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Engineering:</td>
+                <td>
+                    <select name="engineering">
+                        <option>-- Select Group --</option>
+                        <option>CSE</option>
+                        <option>ECE</option>
+                        <option>EEE</option>
+                        <option>MECH</option>
+                        <option>CIVIL</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox" name="hobby1" value="making"> Paper crafts
+                    <input type="checkbox" name="hobby2" value="reading"> Reading Books
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <textarea rows="4" cols="40" name="address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Attach Resume:</td>
+                <td><input type="file" name="resume"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="SUBMIT"> 
+                </td>
+            </tr>
+        </table>
+        <a href="./All in 1.html"></a>
+    </form>
+</body>
+</html>
