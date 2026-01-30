@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Practice Task-Movies Table</title>
+</head>
+<body>
+
+    <h2 align="center">HTML Practice Task-Movies Table</h2>
+    <table border="1" align="center" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Movie Name</th>
+            <th>Movie Photo</th>
+            <th>Hero Name</th>
+            <th>Song (YouTube Link)</th>
+        </tr>
+
+        <tr>
+            <td>KGF</td>
+            <td><img src="./KGF.jpeg" width="100" height="140"></td>
+            <td>Yash</td>
+            <td><a href="https://youtu.be/Zg837tKfA0U?si=YjvKHWi0iwJlaMGu">Link</a></td>
+        </tr>
+
+        <tr>
+            <td>Kantara</td>
+            <td><img src="./Kantara.jpeg" width="100" height="140"></td>
+            <td>Rishab Shetty</td>
+            <td><a href="https://youtu.be/LofmdmtiRks?si=haZVrVQHiFPD5Vl6">Link</a></td>
+        </tr>
+
+        <tr>
+            <td>RRR</td>
+            <td><img src="./RRR.jpeg" width="100" height="140"></td>
+            <td>Ram Charan</td>
+            <td><a href="https://www.youtube.com/watch?v=GVmcfqW0A_8">Link</a></td>
+        </tr>
+
+        <tr>
+            <td>Pushpa</td>
+            <td><img src="./Pushpa.jpeg" width="100" height="140"></td>
+            <td>Allu Arjun</td>
+            <td><a href="https://youtu.be/m7gCn9u9bM4?si=dLTwki7AVv9OTZu2">Link</a></td>
+        </tr>
+
+        <tr>
+            <td>Leo</td>
+            <td><img src="./Leo.jpeg" width="100" height="140"></td>
+            <td>Vijay</td>
+            <td><a href="https://youtu.be/RwTqLfOIXmE?si=asEMcxDRKBvLH1FC">Link</a></td>
+        </tr>
+    </table>
+
+</body>
+</html>
