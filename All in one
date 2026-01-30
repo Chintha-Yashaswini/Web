@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <a href="./personaldetails.html"></a>
+</head>
+<body>
+    <h1>Welcome to all in one</h1>
+    <table border="3px" cellpadding="10px">
+        <tr>
+            <td><a href="./coffee.html"><img src="./coffee.jpg" alt="" height="300" width="300"></a></td>
+            <td><a href="./car.html"><img src="./car.jpg" alt="" height="300" width="300"></a></td>
+            <td><a href="./Bike.html"><img src="./bullet.jpg "  alt="" height="300" width="300"></a></td>
+        </tr>
+        <tr>
+            <td><img src="./chocolates.jpg" alt="" height="300" width="300"> </td>
+            <td><img src="./teddy.jpg" alt="" height="300" width="300"></td>
+            <td><img src="./icecream.jpg"  alt="" height="300" width="300"></td>
+        </tr>
+        <tr>
+            <td><img src="./nailpolish.jpg" alt="" height="300" width="300"> </td>
+            <td><img src="./bangles.jpg" alt="" height="300" width="300"></td>
+            <td><img src="./earrings.jpg"  alt="" height="300" width="300"></td>
+        </tr>
+    
+</body>
+</html>
